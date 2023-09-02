@@ -14,7 +14,7 @@ npm install
 - In the root folder of the repo, launch :
 
 ```
-grunt --bundle==ShootEmUp
+grunt --bundle=ShootEmUp
 ```
 
 Note 1 :The name of the "bundle" arg may be any name of an app which for you've created a json file named accordingly, similar to the ShootEmUp.json example
