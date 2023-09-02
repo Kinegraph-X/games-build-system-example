@@ -35,7 +35,7 @@ Note 2 : for apps other than games, you'll need to also clone the formant-styles
 Livereloading
 -------------
 
-To enable the watchfolder and the live-reloading, add this to the <head> of your html file :
+To enable the watchfolder and the live-reloading, add this to the ```&lt;head&gt;``` of your html file :
 
 ```
 <script type="text/javascript" async="true" src="http://localhost:35729/livereload.js"></script>
