@@ -32,7 +32,8 @@ module.exports = function(grunt) {
 			pathToProject : basePath + currentBundle + '/',
 			browserifyPath : browserifyPath,
 			UIpackage : bundleConfig.UIpackage || ['minimal'],
-			ressourcePath : bundleConfig.ressourcePath
+			ressourcePath : bundleConfig.ressourcePath,
+			localDeployPath : bundleConfig.localDeployRoot
 		},
 		postProcess : function (config) {
 			config.package = pkg;
