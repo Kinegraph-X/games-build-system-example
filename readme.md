@@ -70,7 +70,7 @@ prop in the ShootEmUp.json file.
 Finally, add the 
 
 ```
-"copy-debug"
+"copy:debug"
 ```
 
 task at the end of the list in "watch.js" (and also in the "default" task of the gruntfile.js, if you want to also deploy on manual builds).
