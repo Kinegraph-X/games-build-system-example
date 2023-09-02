@@ -36,11 +36,10 @@ module.exports = function(grunt) {
 			UIpackage : bundleConfig.UIpackage || ['minimal'],
 			ressourcePath : bundleConfig.ressourcePath
 		},
-		package : pkg
-		// postProcess : function (config) {
-			// config.package = pkg;
-			// return config;
-		// }
+		postProcess : function (config) {
+			config.package = pkg;
+			return config;
+		}
 	});
 	
   // Default task(s).
