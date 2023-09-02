@@ -17,6 +17,6 @@ npm instal
 grunt --bundle==ShootEmUp
 ```
 
-the name of the "bundle" arg may be any name of an app which for you've created a json file named accordingly, similar to the ShootEmUp.json example
+Note 1 :The name of the "bundle" arg may be any name of an app which for you've created a json file named accordingly, similar to the ShootEmUp.json example
 
-Note: for apps other than games, you'll need to also clone the formant-stylesheet and formant-lexical-tools repos in the codebase folder
+Note 2 : for apps other than games, you'll need to also clone the formant-stylesheet and formant-lexical-tools repos in the codebase folder
