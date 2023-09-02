@@ -1,0 +1,11 @@
+{"content" : [
+		"formant-core",
+		"formant-keyboardEvents",
+		"games-shootEmUp",
+		"bundles/ShootEmUp"
+	],
+	"UIpackage" : "none",
+	"ressourcePath" : [
+	
+	]
+}
