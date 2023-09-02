@@ -11,7 +11,7 @@ npm install
 
 - clone the formant-core & the formant-keyboardEvents repositories in the "codebase" folder, and of course the repo of the app you want to bundle
 
-- In the root folder of the repo, launch :
+- In the root folder of this repo, launch :
 
 ```
 grunt --bundle=ShootEmUp
