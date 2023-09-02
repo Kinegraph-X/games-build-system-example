@@ -54,8 +54,10 @@ The logic to deploy the app to your dev environement is up to you. You may want 
 In order to do this, add 
 
 ```
-"grunt-contrib-copy": "^0.8.0" to your devDependencies in the "package.json".
+"grunt-contrib-copy": "^0.8.0" 
 ```
+
+to your devDependencies in the "package.json".
 
 Define a 
 
