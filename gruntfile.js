@@ -18,8 +18,6 @@ module.exports = function(grunt) {
 	
 	var pkg = grunt.file.readJSON('package.json');
 	pkg.main = path.join(process.cwd(), basePath + currentBundle + '/index.js');
-	console.log(fs.existsSync(pkg.main));
-	// console.log(pkg);
 
   // Project configuration.
 	require('load-grunt-config')(grunt, {
